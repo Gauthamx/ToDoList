@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.list li:has(input:checked) span {
+    color: hsla(0, 0%, 28%, 0.521);
+    text-decoration: line-through;
+}
